@@ -1,159 +1,229 @@
 header {
-
     width: 100%;
-    height: 459px;
-
+    height: 460px;
+    flex-shrink: 0;
     background-image: url('img/Header\ Background.png');
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 
-}
-
-header {
-
     display: flex;
-    place-items: center;
     place-content: center;
-
-
+    place-items: center;
 }
 
-.hediv {
+.head-content {
+
+
+
+    width: 800px;
+    height: 350px;
 
     display: flex;
     flex-direction: column;
-    place-items: center;
-    place-content: center;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
-    position: relative;
+    padding: 15px;
 
 }
 
-.divh1 {
-    width: 290px;
+.head-content .h1texto {
+    width: 313px;
     color: #FFF;
+
     text-align: center;
     font-family: 'Luckiest Guy';
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    font-size: 26px;
 
 }
 
-.divp1 {
+.head-content .p1texto {
     width: 757px;
     color: #FFF;
+
     text-align: center;
     font-family: 'Open Sans';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    display: flex;
-    flex-wrap: wrap;
+
 
 }
 
 .butoes {
+
     display: flex;
     align-items: flex-start;
     gap: 16px;
+
+
 }
 
-.butblack,
-.butwhite {
-    border: none;
-}
+.butoes .white {
 
-
-
-.butwhite {
     width: 205px;
     height: 44px;
     flex-shrink: 0;
     border-radius: 28px;
     background: #FFF;
-    /* texto do botão */
+
+    /* texto do botão  */
 
     color: #23272A;
     text-align: center;
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.butblack {
+.butoes .black {
+
 
     width: 281px;
     height: 44px;
     flex-shrink: 0;
     border-radius: 28px;
     background: #23272A;
-    color: white;
+    /* texto do botão  */
 
-    /* text botão  */
     color: #FFF;
-
     text-align: center;
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.black,
+.white {
+
+    border: none;
+
 
 }
 
-
-
-
-
-
-@media screen and (max-width:660px) {
-
+@media screen and (max-width: 790px) {
     header {
-
-
+        width: 100%;
+        height: 580px;
+        flex-shrink: 0;
         background-image: url('img/Header\ mobile\ Background.png');
-
-        height: 812px;
-
-
 
     }
 
-    .divp1 {
+    .head-content {
+        width: 500px;
+        height: 480px;
+
+
+
+
+
+
+
+        border: 3px solid blue;
+
+    }
+
+    .head-content .h1texto {
+
+
+        width: 278px;
+        height: 130px;
+
+        text-align: start;
+        margin-right: 100px;
+
+    }
+
+    .head-content .p1texto {
+
         width: 381px;
         text-align: justify;
 
+
+
     }
 
-    .hediv .divh1 {
-
-        width: 278px;
-
-
-        text-align: left;
-        padding-right: 90px;
-    }
 
     .butoes {
 
-        flex-direction: column;
-        align-items: center;
-        
 
+        place-items: center;
+        flex-direction: column;
     }
 
-    .butwhite,
-    .butblack {
+    .butoes .black , .butoes .white {
 
         width: 381px;
         height: 54px;
         flex-shrink: 0;
     }
 
+
+
 }
 
+@media screen and (max-width: 450px) { 
+
+    header {
+        width: 100%;
+        height: 580px;
+        flex-shrink: 0;
+        background-image: url('img/Header\ mobile\ Background.png');
+
+    }
+
+    .head-content {
+        width: 100%;
+        height: 520px;
+        border: 3px solid blue;
+
+    }
+
+    .head-content .h1texto {
+
+
+        width: 238px;
+        height: 140px;
+
+        text-align: start;
+        margin-right: 47px;
+
+    }
+
+    .head-content .p1texto {
+
+        width: 251px;
+        text-align: start;
+
+
+
+    }
+
+
+    .butoes {
+
+
+        place-items: center;
+        flex-direction: column;
+    }
+
+    .butoes .black , .butoes .white {
+
+        width: 260px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+
+
+
+    
+
+}
