@@ -1,0 +1,159 @@
+header {
+
+    width: 100%;
+    height: 459px;
+
+    background-image: url('img/Header\ Background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+header {
+
+    display: flex;
+    place-items: center;
+    place-content: center;
+
+
+}
+
+.hediv {
+
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+    gap: 24px;
+    position: relative;
+
+}
+
+.divh1 {
+    width: 290px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 26px;
+
+}
+
+.divp1 {
+    width: 757px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.butoes {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.butblack,
+.butwhite {
+    border: none;
+}
+
+
+
+.butwhite {
+    width: 205px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #FFF;
+    /* texto do botão */
+
+    color: #23272A;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.butblack {
+
+    width: 281px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #23272A;
+    color: white;
+
+    /* text botão  */
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+
+
+
+
+@media screen and (max-width:660px) {
+
+    header {
+
+
+        background-image: url('img/Header\ mobile\ Background.png');
+
+        height: 812px;
+
+
+
+    }
+
+    .divp1 {
+        width: 381px;
+        text-align: justify;
+
+    }
+
+    .hediv .divh1 {
+
+        width: 278px;
+
+
+        text-align: left;
+        padding-right: 90px;
+    }
+
+    .butoes {
+
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+
+    .butwhite,
+    .butblack {
+
+        width: 381px;
+        height: 54px;
+        flex-shrink: 0;
+    }
+
+}
+
