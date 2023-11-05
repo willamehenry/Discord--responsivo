@@ -89,15 +89,20 @@
     }
 
     #sec1-img {
-        width: 99%;
-      
+        
+        display: flex;
+        place-content: center;
+       
 
+        border: 2px solid lightseagreen;
     }
 
     #sec1-img img {
 
-        width: 97%;
-        
+        width: 100%;
+
+
+
 
     }
 
