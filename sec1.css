@@ -101,9 +101,6 @@
 
         width: 100%;
 
-
-
-
     }
 
 }
@@ -115,10 +112,7 @@
         height: 100%;
         width: 372px;
         display: flex;
-       
-        padding-left: 10px;
-        
-       
+
     }
 
     .texth1 {
@@ -129,13 +123,8 @@
 
     .texth1 h2 {
 
-        width: 330px;
-
-
         font-size: 24px;
     }
-
-
 
     .textp1 p {
         width: 378px;
@@ -143,5 +132,31 @@
     }
 
 
+
+}
+
+@media screen and (max-width: 390px) {
+   
+
+    .textsec1-container {
+        width: 90%;  
+    }
+
+    .texth1 {
+        width: 98%;
+       margin-bottom: 30px;
+    }
+
+    .textp1 {
+        width: 100%;
+        
+    }
+
+    .textp1 p {  
+        width: 98%;
+        height: 100%;
+        font-size:16px;
+       
+    }
 
 }
