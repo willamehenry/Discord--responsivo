@@ -136,24 +136,23 @@ header {
 
     .head-content .p1texto {
 
-        width: 381px;
-        text-align: justify;
-
+        width: 90%;
+        text-align:start ;
 
 
     }
 
 
     .butoes {
-
-
+        width: 100%;
         place-items: center;
         flex-direction: column;
     }
 
-    .butoes .black , .butoes .white {
+    .butoes .black,
+    .butoes .white {
 
-        width: 381px;
+        width: 98%;
         height: 54px;
         flex-shrink: 0;
     }
@@ -162,7 +161,7 @@ header {
 
 }
 
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 450px) {
 
     header {
         width: 100%;
@@ -175,7 +174,7 @@ header {
     .head-content {
         width: 100%;
         height: 520px;
-       
+
 
     }
 
@@ -192,10 +191,7 @@ header {
 
     .head-content .p1texto {
 
-        width: 251px;
-        text-align: start;
-
-
+        width: 90%;
 
     }
 
@@ -207,7 +203,8 @@ header {
         flex-direction: column;
     }
 
-    .butoes .black , .butoes .white {
+    .butoes .black,
+    .butoes .white {
 
         width: 260px;
         height: 48px;
@@ -216,6 +213,6 @@ header {
 
 
 
-    
+
 
 }

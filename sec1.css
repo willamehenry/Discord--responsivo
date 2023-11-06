@@ -67,7 +67,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    font-weight: bold;
+    
+    
+
 
 }
 
@@ -81,6 +83,10 @@
 
 
 @media screen and (max-width: 970px) {
+    .sec1 {
+
+        margin: 40px 24px;
+    }
 
     .sec-conteine {
         display: flex;
@@ -136,27 +142,29 @@
 }
 
 @media screen and (max-width: 390px) {
-   
+
 
     .textsec1-container {
-        width: 90%;  
+        width: 90%;
     }
 
     .texth1 {
         width: 98%;
-       margin-bottom: 30px;
+        margin-bottom: 30px;
     }
 
     .textp1 {
         width: 100%;
-        
+        height: 100%;
+
     }
 
-    .textp1 p {  
-        width: 98%;
+    .textp1 p {
+        width: 100%;
         height: 100%;
-        font-size:16px;
-       
+        font-size: 16px;
+        border: 3px solid green;
+
     }
 
 }
