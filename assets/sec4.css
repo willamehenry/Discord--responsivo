@@ -1,0 +1,121 @@
+.sec4 {
+    padding: 40px 0px;
+    width: 100%;
+    height: 750px;
+    
+    background: #F6F6F6;
+
+}
+
+.sec-conteine4 {
+    width: 99%;
+    height: 99%;
+    background: #F6F6F6;
+    
+    gap: 16px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.sec4-img {
+
+    display: flex;
+    place-content: center;
+  
+}
+
+.imgdivsec4 {
+    
+
+    width: 784px;
+    height: 458px;
+    margin: 10px;
+}
+
+
+.textsec4-container {
+  
+
+    gap: 16px;
+    flex-direction: column;
+    place-items: center;
+    display: flex;
+}
+
+
+
+.texth4 h2 {
+    
+
+
+    width: 608px;
+    height: 85px;
+
+    color: #23272A;
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textp4 p {
+   
+
+    width: 802px;
+    height: 44px;
+    color: #23272A;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .sec4 {
+
+        width: 100%;
+
+    }
+
+    .imgdivsec4 {
+
+        width: 100%;
+
+    }
+
+    .textp4 p {
+        margin-left:10px;
+        width: 95%;
+        height: 68px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        flex-wrap: wrap;
+    
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .texth4 h2 {
+
+        width: 90%;
+        height: 70px;
+        font-size: 35px;
+
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+.texth4 h2 {
+
+    font-size: 20px;
+}
+
+}
